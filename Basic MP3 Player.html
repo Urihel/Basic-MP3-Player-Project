@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Basic MP3 Player.css">
+</head>
+<body>
+        <div id="outter-mp3">
+            <!-- The web version of a digital screen -->
+            <div id="screen">
+                <marquee id="songTitle">Press Play To Listen To Music</marquee>
+            </div>
+            <!-- the progress bar for the song  -->
+            <div id="progressBar">
+                <div id="songProgress"></div>
+            </div>
+            <!-- the play and pause button -->
+            <div id="playButton">Play</div>
+            <!-- the audio file we use to execute with js when play is pressed. -->
+            <!-- audio file import from phone as m4a file not mp3 -->
+            <audio id="track" src="./what's poppin.m4a"></audio>
+        </div>
+
+
+        
+</body>
+<script src="Basic MP3 Player.js"></script>
+</html>
