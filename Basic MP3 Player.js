@@ -19,8 +19,9 @@ playButton.addEventListener("click", function (e) {
         console.log(n);
         songTitle.innerHTML = "What's poppin - JackHarlow";
         song.play();
+        
         //The code below is a progess bar that operates with the 
-        //the audio file and button which allows it to work progress
+        //the audio file and button which allows it to progress
         //as the song continues.
         var s = 0;
 
